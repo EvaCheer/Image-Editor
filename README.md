@@ -56,7 +56,7 @@ $$ \text{sharpened} = \text{origial} + (\text{original} - \text{blurred}) \text{
 
 $$ \text{sharpened} = \alpha * \text{original} + \beta * \text{blurred} $$
 
-where $\alpha = 1 + \text{sharpness_modifier} $ and $ \beta = \text{sharpnes_modifier} $
+where α = 1 + sharpness_modifier and β = sharpness_modifier
 This formula then is applied to each channel of each pixel of the image.
 
 
